@@ -19,6 +19,11 @@ Day 42 was centered around practicing **DOM selection**, **event listeners**, **
 | 🎯 Centered Layout | Used Flexbox to perfectly center the entire counter component. |
 | 💎 UI Styling | Added shadows, rounded corners, and clean card-style design. |
 
+## 🎥 Demo  
+Here is a preview of how the counter works:  
+
+![Demo](demo.gif)
+
 🛠️ **Technologies Used**  
 - **HTML** – Structure  
 - **CSS** – Styling and layout  
