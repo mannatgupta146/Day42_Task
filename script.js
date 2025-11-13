@@ -7,21 +7,21 @@ let a = 0
 
 inc.addEventListener("click", function(){
     inc.style.backgroundColor = "blue"
-    setTimeout(() => inc.style.backgroundColor = "", 500);
+    setTimeout(() => inc.style.backgroundColor = "", 300);
     a++
     h1.innerHTML = a
 })
 
 dec.addEventListener("click", function(){
     dec.style.backgroundColor = "red"
-    setTimeout(() => inc.style.backgroundColor = "", 500);
+    setTimeout(() => dec.style.backgroundColor = "", 300);
     a--
     h1.innerHTML = a
 })
 
 reset.addEventListener("click", function(){
     reset.style.backgroundColor = "green"
-    setTimeout(() => inc.style.backgroundColor = "", 500);
+    setTimeout(() => reset.style.backgroundColor = "", 300);
     a = 0
     h1.innerHTML = a
 })
