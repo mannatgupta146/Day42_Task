@@ -1,82 +1,47 @@
 # Day 42 Task | Cohort 2.0
 
-This file contains all the **JavaScript exercises and experiments** I completed as part of **Day 41**.  
-It focuses on **higher-order functions**, **pure and impure functions**, **object destructuring**, **array methods**, and **object behavior with freeze and seal**.
+This file contains the **JavaScript Counter Project** I completed as part of **Day 42**.  
+It focuses on **DOM manipulation**, **event handling**, **dynamic styling**, and creating an **interactive counter UI** using JavaScript.
 
-📌 **About the Day 41 Task**  
-Day 41 was centered around learning and practicing **functional thinking**, **logic building**, and **intermediate JavaScript concepts** like higher-order functions, functional purity, destructuring, and ES6 array methods.
+📌 **About the Day 42 Task**  
+Day 42 was centered around practicing **DOM selection**, **event listeners**, **UI updates**, and building a functional counter with clean animations and styling.
 
 ✨ **Task Description**
 
 | Feature | Description |
 |--------|-------------|
-| Higher-Order Functions | Executed a function multiple times inside another function. |
-| Pure vs Impure Functions | Understood predictable output vs side-effect based functions. |
-| Object Destructuring | Extracted properties directly inside function parameters. |
-| Normal vs Arrow Functions | Observed how `this` behaves differently in both cases. |
-| map() | Created a new array of squared values. |
-| filter() | Extracted even numbers from an array. |
-| some() and every() | Tested conditions on an array of strings. |
-| Object.freeze() and Object.seal() | Checked how objects behave when changes are restricted. |
-| Nested Objects | Accessed deeply nested properties. |
+| 🧩 DOM Selection | Selected elements like `h1`, `+`, `-`, and `reset` using `querySelector` and `getElementById()`. |
+| ➕ Increase Counter | Clicking the **+** button increments the counter value. |
+| ➖ Decrease Counter | Clicking the **–** button decreases the counter value. |
+| 🔄 Reset Counter | The **reset** button sets the counter back to **0**. |
+| 🎨 Temporary Color Change | Buttons change color briefly using `style.backgroundColor` with `setTimeout()`. |
+| 🖱️ Hover Animation | Added smooth hover scaling to enhance user experience. |
+| 🎯 Centered Layout | Used Flexbox to perfectly center the entire counter component. |
+| 💎 UI Styling | Added shadows, rounded corners, and clean card-style design. |
 
 🛠️ **Technologies Used**  
-- JavaScript (ES6+)  
-- VS Code / Browser Console  
-- Node.js (optional)
+- **HTML** – Structure  
+- **CSS** – Styling and layout  
+- **JavaScript (ES6+)** – DOM and event logic  
+- **VS Code / Browser** – Testing and debugging  
 
----
-
-## 🧩 Practice Questions – Level 2 (Functional Thinking and Logic)
-
-### 1. Higher-order function  
-Created `runTwice(fn)` to execute a function two times.
-
-### 2. Pure and Impure functions  
-A pure function that always returns the same output for the same input, and an impure function using a global variable.
-
-### 3. Object destructuring inside parameters  
-Extracted `name` and `age` directly inside function arguments.
-
-### 4. Normal vs Arrow function behavior  
-Demonstrated how `this` changes inside normal functions but not in arrow functions used as object methods.
-
-### 5. Using map()  
-Generated a new array where each number was squared.
-
-### 6. Using filter()  
-Filtered and returned only even numbers from an array.
-
-### 7. Using some()  
-Checked if at least one name is longer than 3 characters.
-
-### 8. Using every()  
-Checked if all names are longer than 3 characters.
-
-### 9. Object.freeze() and Object.seal()  
-Observed how sealed and frozen objects restrict modifications.
-
-### 10. Accessing nested objects  
-Accessed the `city` value from a nested object.
-
----
 
 ## 📖 Learning Outcome  
 Through this task, I learned how to:
 
-- Use **higher-order functions** to run logic multiple times  
-- Understand the difference between **pure** and **impure** functions  
-- Use **object destructuring** inside parameters  
-- Work with powerful array methods like **map**, **filter**, **some**, and **every**  
-- Understand how **this** behaves differently in normal vs arrow functions  
-- See how JavaScript objects behave with **seal** and **freeze**  
-- Access values inside **nested objects**  
+- Manipulate the DOM using JavaScript  
+- Use **event listeners** to trigger UI updates  
+- Update text dynamically using `.innerHTML`  
+- Apply temporary color changes using **`setTimeout()`**  
+- Use **Flexbox** for perfect layout centering  
+- Add hover animations and shadows for modern UI  
+- Build a fully interactive component with clean structure  
 
-These exercises increased my understanding of **functional programming**, **immutability**, and **modern ES6 concepts**.
+This project strengthened my understanding of **events**, **DOM manipulation**, and **JavaScript-based UI design**.
 
----
 
 ## 🌟 Acknowledgement  
-This task helped me improve my **JavaScript logic, functional thinking, and ES6 concepts**.  
-I am grateful for the consistent guidance and support that helps me learn and grow every day.
+This task helped me improve my understanding of **JavaScript events, DOM structure, styling, and interactive UI development**.  
+I am grateful for the consistent guidance and motivation that helps me grow every day.
 
+---
